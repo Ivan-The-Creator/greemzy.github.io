@@ -1,4 +1,0 @@
-FROM openjdk:17
-WORKDIR /main
-COPY target/greemzy.jar bot.jar
-CMD ["java", "-jar", "bot.jar"]
